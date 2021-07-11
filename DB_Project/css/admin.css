@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E6E6E6;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.rca-column-12 {
+    width: 100%;
+}
+
+.rca-logo h2 {
+    margin: 0px;
+    padding: 20px 0px;
+    font-weight: normal;
+}
+
+.rca-logo h2 span {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.rca-logo h2 img {
+    max-width: 100%;
+    max-height: 50px;
+    vertical-align: middle;
+    padding: 5px;
+}
+
+@media only screen and (max-width:800px) {
+    .sidepanel {
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        height: 250px;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+        height: 100%;
+
+    }
+
+    .sidepanel a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+
+    }
+
+    .sidepanel a:hover {
+        color: #f1f1f1;
+    }
+
+    .sidepanel .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+    }
+
+    .openbtn {
+        font-size: 20px;
+        cursor: pointer;
+        background-color: #111;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+    }
+
+    .openbtn:hover {
+        background-color: #444;
+    }
+
+    .navbar,
+    navbar-expand-lg,
+    navbar-light,
+    bg-light {
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width:800px) {
+    .sidepanel {
+        display: none;
+    }
+
+    #mySidepanel {
+        display: none;
+    }
+
+    .openbtn {
+        display: none;
+    }
+}
+
+.dropdown2 {
+    border: 2px solid #4e4c4c;
+    border-radius: 7px;
+    color: black;
+    background-color: white;
+    margin: 4px;
+    padding: 4px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

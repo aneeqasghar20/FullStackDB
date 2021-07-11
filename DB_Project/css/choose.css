@@ -1,0 +1,128 @@
+/* .header {
+    display: flex;
+    font-size: large;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 0;
+    width: 100%;
+    height: 20%;
+    background-color: #cccccc;
+    background-image: linear-gradient(grey, yellow);
+} */
+/* 
+body {
+    position: relative;
+    background-image: url("../images/aa.jpg"); */
+    /* background-blend-mode:color-burn; */
+    /* opacity: 0.5; */
+    /* z-index: -4; */
+    /* background-repeat: no-repeat;
+    background-color: #E6E6E6;
+    background-size: cover;
+} */
+
+@media only screen and (max-width:800px) {
+    .container {
+        display: flex;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+        background-image: none;
+    }
+
+    /* * {
+        background-image: url("../images/aa.jpg");
+        background-size: cover;
+    } */
+
+    .btn {
+        background-color: white !important;
+        background-image: none;
+    }
+
+    .btn:hover {
+        color: white!important;
+        background-color: #4d4d4d !important;
+    }
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: auto;
+    padding: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20%;
+}
+
+.btn {
+    width: 150px;
+    background-color: #4d4d4d;
+    border: none;
+    outline: none;
+    height: 49px;
+    border-radius: 49px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.btn:hover {
+    background-color: #4d4d4d;
+    color: white!important;;
+
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E6E6E6;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+.rca-column-12 {
+    width: 100%;
+}
+
+.rca-logo h2 {
+    margin: 0px;
+    padding: 20px 0px;
+    font-weight: normal;
+}
+
+.rca-logo h2 span {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.rca-logo h2 img {
+    max-width: 100%;
+    max-height: 50px;
+    vertical-align: middle;
+    padding: 5px;
+}
+body{
+    background-color: #E6E6E6!important;
+}
